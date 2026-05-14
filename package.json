@@ -239,5 +239,10 @@
     "arm64",
     "arm"
   ],
-  "heroku-run-build-script": true
+  "heroku-run-build-script": true,
+  "overrides": {
+    "node-pre-gyp": {
+      "tar": "7.5.8"
+    }
+  }
 }
